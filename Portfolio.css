@@ -1,0 +1,37 @@
+.body {
+    margin: 10px;
+    padding: 10px;
+}
+.brand {
+    margin-top: 50px;
+}
+
+.container-fluid {
+    margin-top: 0px; /* Add margin to give space for the fixed navbar */
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.row p {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.row a {
+    display: block;
+    margin-top: 5px;
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+.row a:hover {
+    color: #0056b3; /* Hover color */
+}
+
+/* Optional: Add style for visited links */
+.row a:visited {
+    color: purple;
+}
